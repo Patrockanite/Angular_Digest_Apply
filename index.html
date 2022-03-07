@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='fr' ng-app='PatModule'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link href = 'css/style.css' rel = 'stylesheet'>
+        <!--Ukraine-->
+        <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+        <title>Digest & App</title>
+    </head>
+    <body>
+        <h1>Digest & App</h1>
+        <div id ='main-content' ng-controller='PatController'>
+            <div>
+                <button ng-click="upCounter()">Increment Counter</button>
+            </div>
+            <div>
+                Regular Counter : {{counter}}
+            </div>
+
+        </div>
+    </body>
+    <script src='scr/angular.min.js'></script>
+    <script src='scr/app.js'></script>
+    <!-- Autre JS si besoin -->
+</html>
